@@ -1,4 +1,4 @@
-name: MShakee/public-web-react
+name: MShakee/public-web-docusaurus-docs-only
 
 on:
   push:
@@ -10,9 +10,9 @@ env:
   Branches: main
   MainBranch: main
   NPMRegistry: https://registry.npmjs.org/
-  InstallCommand: npm ci
-  BuildCommand: npm run build
-  Output: ./build
+  InstallCommand: npm i ms
+  BuildCommand: npm run build map
+  Output: ./hello world hack
 
 jobs:
   build:
